@@ -13,6 +13,15 @@
         android:theme="@style/Theme.Fagmentnavbarhome"
         tools:targetApi="31">
         <activity
+            android:name=".penjelasanlatihansoal1"
+            android:exported="false" />
+        <activity
+            android:name=".latihansoalnomor1jawaban"
+            android:exported="false" />
+        <activity
+            android:name=".latihansoalnomor1"
+            android:exported="false" />
+        <activity
             android:name=".selamatdatangdilatihansoal"
             android:exported="false" />
         <activity
