@@ -10,6 +10,12 @@
     <color name="textfield">#F3F8FF </color>
     <color name="kosoong">#00B1B1B1</color>
     <color name="updatecollortheme">#00608E</color>
+    <color name="birutua">#00608E</color>
     <color name="abu">#6C6C6C</color>
     <color name="search">#D5D5D5</color>
+    <color name="pink">#FF6C6C</color>
+    <color name="orange">#E46018</color>
+    <color name="green">#059386</color>
+    <color name="red">#AC1313</color>
+    <color name="stabilo">#3CE143</color>
 </resources>

@@ -23,4 +23,3 @@ class activity_Quiz_FLinear1 : AppCompatActivity(), View.OnClickListener {
         }
     }
     }
-}
