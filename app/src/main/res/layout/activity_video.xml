@@ -6,4 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".activity_video">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        tools:ignore="MissingConstraints">
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
