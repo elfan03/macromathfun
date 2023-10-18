@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -25,6 +25,7 @@
             android:textColor="@color/white"/>
     </FrameLayout>
     <LinearLayout
+        android:layout_marginTop="150dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -85,7 +86,8 @@
                 android:layout_width="139dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
-                android:background="@color/white"
+                android:background="@drawable/butonshape"
+                android:backgroundTint="@color/birutua"
                 android:drawablePadding="10dp"
                 android:text="I"
                 android:textColor="@color/white"
@@ -98,8 +100,7 @@
                 android:layout_width="139dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
-                android:background="@drawable/butonshape"
-                android:backgroundTint="@color/green"
+                android:backgroundTint="@color/white"
                 android:drawablePadding="10dp"
                 android:text="II"
                 android:textColor="@color/white"
@@ -184,4 +185,4 @@
         </LinearLayout>
     </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
