@@ -82,6 +82,7 @@
             android:gravity="center">
 
             <Button
+                android:id="@+id/btn_satu"
                 android:layout_width="139dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
@@ -93,11 +94,13 @@
                 tools:ignore="TouchTargetSizeCheck"/>
 
             <Button
+                android:id="@+id/btn_dua"
                 android:layout_marginLeft="10dp"
                 android:layout_width="139dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:background="@drawable/butonshape"
+                android:backgroundTint="@color/green"
                 android:drawablePadding="10dp"
                 android:text="II"
                 android:textColor="@color/white"
@@ -111,21 +114,25 @@
             android:orientation="horizontal"
             android:gravity="center">
             <Button
+                android:id="@+id/btn_tiga"
                 android:layout_width="139dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:background="@drawable/butonshape"
+                android:backgroundTint="@color/orange"
                 android:drawablePadding="10dp"
                 android:text="III"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 tools:ignore="TouchTargetSizeCheck"/>
             <Button
+                android:id="@+id/btn_empat"
                 android:layout_marginLeft="10dp"
                 android:layout_width="139dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:background="@drawable/butonshape"
+                android:backgroundTint="@color/pink"
                 android:drawablePadding="10dp"
                 android:text="IV"
                 android:textColor="@color/white"
@@ -153,4 +160,5 @@
                 tools:ignore="TouchTargetSizeCheck" />
         </LinearLayout>
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

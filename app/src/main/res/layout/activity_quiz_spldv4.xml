@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity_Quiz_SPLDV2">
+    tools:context=".activity_Quiz_SPLDV4">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -60,14 +60,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
-                        android:layout_marginTop="10dp"
                         android:fontFamily="@font/lato_bold"
-                        android:text="Perhatikan persamaan-persamaan berikut !
-                                                                                            (i) 3p + 5q = 10
-                                                                                (II) 2x2 - 3y = 6
-                                                                                             (III) 3y = 5x – 2
-                                                                                (IV) 3x + 5 = 2x – 3y
-                                                                                Yang bukan merupakan persamaan linear dua variabel adalah ...."
+                        android:text="Rina membeli 3 kg apel dan 2 kg jeruk. Uang yag harus dibayarkan adalah Rp 65.000,00. Jika diubah menjadi persamaan linear dua variabel, maka pernyataan tersebut menjadi ...."
                         android:textColor="@color/black"
                         android:textSize="15sp"
                         android:textStyle="bold" />
@@ -147,21 +141,21 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-        <TextView
-            android:id="@+id/correct"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_marginStart="80dp"
-            android:layout_marginEnd="80dp"
-            android:background="@drawable/butonshape"
-            android:backgroundTint="@color/stabilo"
-            android:text="Correct Answer"
-            android:gravity="center"
-            android:drawableTop="@drawable/baseline_check_24"
-            android:drawableTint="@color/white"
-            android:padding="7dp"
-            android:textStyle="bold"
-            android:textColor="@color/white" />
+            <TextView
+                android:id="@+id/correct"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginEnd="80dp"
+                android:background="@drawable/butonshape"
+                android:backgroundTint="@color/red"
+                android:text="Incorrect Answer"
+                android:gravity="center"
+                android:drawableTop="@drawable/baseline_close_24"
+                android:drawableTint="@color/white"
+                android:padding="7dp"
+                android:textStyle="bold"
+                android:textColor="@color/white" />
         </LinearLayout>
         <Space
             android:layout_width="match_parent"
